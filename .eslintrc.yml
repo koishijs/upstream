@@ -1,0 +1,12 @@
+root: true
+
+env:
+  browser: true
+  node: true
+  es2022: true
+
+globals:
+  NodeJS: true
+
+extends:
+  - '@koishijs/eslint-config'

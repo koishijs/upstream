@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@koishijs/plugin-adapter-*": [
+        "adapter/*/src",
+      ],
+      "@koishijs/plugin-database-*": [
+        "database/*/src",
+      ],
+      "@koishijs/plugin-server-*": [
+        "server/*/src",
+      ],
+      "*": [
+        "packages/*/src",
+      ],
+    },
+  },
+  "files": [],
+}
