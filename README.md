@@ -1,4 +1,4 @@
-# Upstream Plugins
+# Upstream
 
 这个仓库用于同步来自上游框架的插件。
 

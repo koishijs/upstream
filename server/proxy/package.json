@@ -1,7 +1,7 @@
 {
   "name": "@koishijs/plugin-server-proxy",
   "description": "Proxy service for Koishi",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
   "typings": "lib/index.d.ts",
@@ -30,18 +30,23 @@
     "router"
   ],
   "koishi": {
+    "service": {
+      "implements": [
+        "server.proxy"
+      ]
+    },
     "description": {
       "en": "Router Proxy Service",
       "zh": "路由代理服务"
     }
   },
   "peerDependencies": {
-    "koishi": "^4.15.5"
+    "koishi": "^4.15.6"
   },
   "devDependencies": {
-    "koishi": "^4.15.5"
+    "koishi": "^4.15.6"
   },
   "dependencies": {
-    "@satorijs/server-proxy": "^1.0.0"
+    "@satorijs/server-proxy": "^1.0.2"
   }
 }
