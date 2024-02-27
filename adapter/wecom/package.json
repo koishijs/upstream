@@ -1,7 +1,7 @@
 {
   "name": "@koishijs/plugin-adapter-wecom",
   "description": "Wecom Adapter for Koishi",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -38,12 +38,12 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.17.0-alpha.0"
+    "koishi": "^4.17.1"
   },
   "devDependencies": {
-    "koishi": "^4.17.0-alpha.0"
+    "koishi": "^4.17.1"
   },
   "dependencies": {
-    "@satorijs/adapter-wecom": "^2.2.0"
+    "@satorijs/adapter-wecom": "^2.3.0"
   }
 }

@@ -41,10 +41,10 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.17.0-alpha.0"
+    "koishi": "^4.17.1"
   },
   "devDependencies": {
-    "koishi": "^4.17.0-alpha.0"
+    "koishi": "^4.17.1"
   },
   "dependencies": {
     "@satorijs/server-proxy": "^1.1.0"
