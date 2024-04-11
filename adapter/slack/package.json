@@ -39,10 +39,10 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.17.1"
+    "koishi": "^4.17.4"
   },
   "devDependencies": {
-    "koishi": "^4.17.1"
+    "koishi": "^4.17.4"
   },
   "dependencies": {
     "@satorijs/adapter-slack": "^2.3.0"
