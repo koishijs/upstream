@@ -1,4 +1,4 @@
-import TempServer from '@cordisjs/server-temp'
+import TempServer from '@cordisjs/plugin-server-temp'
 
 export default TempServer
-export * from '@cordisjs/server-temp'
+export * from '@cordisjs/plugin-server-temp'
