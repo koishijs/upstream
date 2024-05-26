@@ -1,13 +1,20 @@
 {
   "name": "@koishijs/plugin-server-proxy",
   "description": "Proxy service for Koishi",
-  "version": "1.1.0",
-  "main": "lib/index.js",
-  "module": "lib/index.mjs",
-  "typings": "lib/index.d.ts",
+  "version": "1.2.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.cjs",
+      "default": "./index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
   "files": [
-    "lib",
-    "src"
+    "index.cjs",
+    "index.mjs",
+    "index.d.ts"
   ],
   "author": "Shigma <shigma10826@gmail.com>",
   "license": "MIT",
@@ -31,6 +38,10 @@
   ],
   "koishi": {
     "service": {
+      "required": [
+        "server",
+        "http"
+      ],
       "implements": [
         "server.proxy"
       ]
@@ -41,12 +52,12 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.17.5"
+    "koishi": "^4.17.7"
   },
   "devDependencies": {
-    "koishi": "^4.17.5"
+    "koishi": "^4.17.7"
   },
   "dependencies": {
-    "@satorijs/server-proxy": "^1.1.0"
+    "@cordisjs/plugin-server-proxy": "^0.2.0"
   }
 }

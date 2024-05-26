@@ -2,12 +2,19 @@
   "name": "@koishijs/plugin-server-temp",
   "description": "Temporary file server for Koishi",
   "version": "1.4.0",
-  "main": "lib/index.js",
-  "module": "lib/index.mjs",
-  "typings": "lib/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.cjs",
+      "default": "./index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
   "files": [
-    "lib",
-    "src"
+    "index.cjs",
+    "index.mjs",
+    "index.d.ts"
   ],
   "author": "Shigma <shigma10826@gmail.com>",
   "license": "MIT",
@@ -46,10 +53,10 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.17.5"
+    "koishi": "^4.17.7"
   },
   "devDependencies": {
-    "koishi": "^4.17.5"
+    "koishi": "^4.17.7"
   },
   "dependencies": {
     "@cordisjs/plugin-server-temp": "^0.4.0"

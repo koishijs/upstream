@@ -1,22 +1,20 @@
 {
   "name": "@koishijs/plugin-server-satori",
   "description": "Satori Server for Koishi",
-  "version": "2.4.3",
+  "version": "2.6.2",
   "type": "module",
-  "main": "lib/index.cjs",
-  "module": "lib/index.mjs",
-  "typings": "lib/index.d.ts",
   "exports": {
     ".": {
-      "require": "./lib/index.cjs",
-      "import": "./lib/index.mjs",
-      "types": "./lib/index.d.ts"
+      "types": "./index.d.ts",
+      "require": "./index.cjs",
+      "default": "./index.mjs"
     },
     "./package.json": "./package.json"
   },
   "files": [
-    "lib",
-    "src"
+    "index.cjs",
+    "index.mjs",
+    "index.d.ts"
   ],
   "author": "Shigma <shigma10826@gmail.com>",
   "license": "MIT",
@@ -46,12 +44,12 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.17.5"
+    "koishi": "^4.17.7"
   },
   "devDependencies": {
-    "koishi": "^4.17.5"
+    "koishi": "^4.17.7"
   },
   "dependencies": {
-    "@satorijs/server-satori": "^2.4.3"
+    "@satorijs/plugin-server": "^2.6.2"
   }
 }
