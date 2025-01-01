@@ -39,10 +39,10 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.18.2"
+    "koishi": "^4.18.5"
   },
   "devDependencies": {
-    "koishi": "^4.18.2"
+    "koishi": "^4.18.5"
   },
   "dependencies": {
     "@satorijs/adapter-telegram": "^4.5.8"

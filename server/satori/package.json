@@ -1,7 +1,7 @@
 {
   "name": "@koishijs/plugin-server-satori",
   "description": "Satori Server for Koishi",
-  "version": "2.8.2",
+  "version": "2.8.6",
   "type": "module",
   "exports": {
     ".": {
@@ -44,12 +44,12 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.18.2"
+    "koishi": "^4.18.5"
   },
   "devDependencies": {
-    "koishi": "^4.18.2"
+    "koishi": "^4.18.5"
   },
   "dependencies": {
-    "@satorijs/plugin-server": "^2.8.2"
+    "@satorijs/plugin-server": "^2.8.6"
   }
 }
