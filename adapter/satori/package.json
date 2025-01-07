@@ -1,7 +1,7 @@
 {
   "name": "@koishijs/plugin-adapter-satori",
   "description": "Satori Protocol Adapter for Koishi",
-  "version": "1.4.8",
+  "version": "1.5.1",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
   "typings": "lib/index.d.ts",
@@ -41,12 +41,12 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.18.5"
+    "koishi": "^4.18.6"
   },
   "devDependencies": {
-    "koishi": "^4.18.5"
+    "koishi": "^4.18.6"
   },
   "dependencies": {
-    "@satorijs/adapter-satori": "^1.4.8"
+    "@satorijs/adapter-satori": "^1.5.1"
   }
 }
