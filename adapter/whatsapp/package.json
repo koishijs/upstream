@@ -38,10 +38,10 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.18.6"
+    "koishi": "^4.18.7"
   },
   "devDependencies": {
-    "koishi": "^4.18.6"
+    "koishi": "^4.18.7"
   },
   "dependencies": {
     "@satorijs/adapter-whatsapp": "^2.5.3"

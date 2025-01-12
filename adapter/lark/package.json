@@ -1,7 +1,7 @@
 {
   "name": "@koishijs/plugin-adapter-lark",
   "description": "Lark Adapter for Koishi",
-  "version": "3.9.0",
+  "version": "3.9.5",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
   "typings": "lib/index.d.ts",
@@ -44,12 +44,12 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.18.6"
+    "koishi": "^4.18.7"
   },
   "devDependencies": {
-    "koishi": "^4.18.6"
+    "koishi": "^4.18.7"
   },
   "dependencies": {
-    "@satorijs/adapter-lark": "^3.9.0"
+    "@satorijs/adapter-lark": "^3.9.5"
   }
 }
