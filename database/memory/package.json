@@ -1,7 +1,7 @@
 {
   "name": "@koishijs/plugin-database-memory",
   "description": "A in-memory database implementation for Koishi",
-  "version": "3.6.0",
+  "version": "3.7.0",
   "main": "lib/index.cjs",
   "module": "lib/index.mjs",
   "typings": "lib/index.d.ts",
@@ -43,13 +43,13 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.18.7"
+    "koishi": "^4.18.10"
   },
   "devDependencies": {
-    "koishi": "^4.18.7",
-    "minato": "^3.6.1"
+    "koishi": "^4.18.10",
+    "minato": "^3.7.0"
   },
   "dependencies": {
-    "@minatojs/driver-memory": "^3.6.0"
+    "@minatojs/driver-memory": "^3.7.0"
   }
 }
