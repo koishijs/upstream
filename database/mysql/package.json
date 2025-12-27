@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koishijs/koishi.git",
+    "url": "git+https://github.com/koishijs/upstream.git",
     "directory": "plugins/database/mysql"
   },
   "bugs": {
