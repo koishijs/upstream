@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satorijs/satori.git",
+    "url": "git+https://github.com/koishijs/upstream.git",
     "directory": "adapters/dingtalk"
   },
   "bugs": {
@@ -25,7 +25,8 @@
     "dingding",
     "dingtalk",
     "chatbot",
-    "koishi"
+    "koishi",
+    "钉钉"
   ],
   "koishi": {
     "description": {

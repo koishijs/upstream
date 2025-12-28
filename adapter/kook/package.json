@@ -1,6 +1,6 @@
 {
   "name": "@koishijs/plugin-adapter-kook",
-  "description": "Kook (Kaiheila) Adapter for Koishi",
+  "description": "Kook Adapter for Koishi",
   "version": "4.7.0",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satorijs/satori.git",
+    "url": "git+https://github.com/koishijs/upstream.git",
     "directory": "adapters/kook"
   },
   "bugs": {
@@ -23,15 +23,15 @@
   "keywords": [
     "bot",
     "kook",
-    "kaiheila",
     "chatbot",
-    "koishi"
+    "koishi",
+    "开黑啦"
   ],
   "koishi": {
     "browser": true,
     "description": {
-      "en": "Kook (Kaiheila) Adapter",
-      "zh": "Kook (开黑啦) 适配器"
+      "en": "Kook Adapter",
+      "zh": "Kook 适配器"
     },
     "service": {
       "implements": [

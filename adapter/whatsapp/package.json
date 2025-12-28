@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satorijs/satori.git",
+    "url": "git+https://github.com/koishijs/upstream.git",
     "directory": "adapters/whatsapp"
   },
   "bugs": {
