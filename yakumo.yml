@@ -7,5 +7,4 @@
       clean:
         - tsc --clean
 - name: yakumo-esbuild
-- name: yakumo-mocha
 - name: yakumo-tsc
