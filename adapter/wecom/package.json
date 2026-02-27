@@ -40,10 +40,10 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.18.10"
+    "koishi": "^4.18.11"
   },
   "devDependencies": {
-    "koishi": "^4.18.10"
+    "koishi": "^4.18.11"
   },
   "dependencies": {
     "@satorijs/adapter-wecom": "^2.4.3-alpha.0"

@@ -2,7 +2,9 @@ lib
 dist
 external
 
-todo.md
+CLAUDE.md
+TODO.md
+
 yarn.lock
 coverage/
 node_modules/
@@ -13,6 +15,7 @@ package-lock.json
 tsconfig.tsbuildinfo
 report.*.json
 
+.claude
 .eslintcache
 .DS_Store
 .idea
