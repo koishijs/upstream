@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "packageManager": "yarn@4.12.0",
+  "packageManager": "yarn@4.14.1",
   "workspaces": [
     "adapter/*",
     "database/*",
@@ -20,12 +20,12 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.0.9",
-    "esbuild": "^0.27.2",
+    "esbuild": "^0.28.0",
     "esbuild-register": "^3.6.0",
     "typescript": "^5.6.2",
-    "yakumo": "^1.0.0-beta.20",
-    "yakumo-esbuild": "^1.0.0-beta.7",
-    "yakumo-tsc": "^1.0.0-beta.5",
+    "yakumo": "^3.2.1",
+    "yakumo-esbuild": "^3.0.2",
+    "yakumo-tsc": "^3.0.1",
     "yml-register": "^1.2.5"
   }
 }

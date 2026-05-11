@@ -20,8 +20,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cordisjs/server.git",
-    "directory": "packages/temp"
+    "url": "git+https://github.com/koishijs/upstream.git",
+    "directory": "server/temp"
   },
   "bugs": {
     "url": "https://github.com/cordisjs/server/issues"

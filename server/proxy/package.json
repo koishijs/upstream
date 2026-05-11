@@ -20,8 +20,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satorijs/satori.git",
-    "directory": "packages/proxy"
+    "url": "git+https://github.com/koishijs/upstream.git",
+    "directory": "server/proxy"
   },
   "bugs": {
     "url": "https://github.com/satorijs/satori/issues"
